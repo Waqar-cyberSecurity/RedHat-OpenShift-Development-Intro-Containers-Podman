@@ -104,6 +104,11 @@ Exit the container:
 ```
 exit
 ```
+# ✅ Hands-On Expected Output Preview :
+
+ <img src="lab1 .png" alt="GitHub Banner" width="100%" />
+
+
 # 🛠️ Troubleshooting Tips
 
  Permission Errors

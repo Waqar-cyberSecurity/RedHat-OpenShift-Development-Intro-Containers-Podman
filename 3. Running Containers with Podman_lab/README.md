@@ -107,6 +107,10 @@ ss -tulnp
 
 👉 Shows which ports are already in use (to avoid conflicts).
 
+# Hand-On Output Preview:
+
+<img src="lab 3 .png" alt="GitHub Banner" width="100%" />
+
 
 # ⚡ Task 3: Volume Mounts
 ## Steps
@@ -159,6 +163,11 @@ Stop by name:
 podman stop my-nginx
 ```
 👉 Stops the container using its name instead of ID.
+
+# Hand-On Output Preview:
+
+<img src="lab 3.1.png" alt="GitHub Banner" width="100%" />
+
 
 # ✅ Conclusion
 

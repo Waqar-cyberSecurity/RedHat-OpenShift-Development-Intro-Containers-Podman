@@ -77,6 +77,10 @@ ping redis-container
 ```
 ### 👉 Key Concept: Containers in the same pod share the network namespace, so they can talk via localhost.
 
+# Hand-On output Preview:
+<img src="lab 4 .png" alt="GitHub Banner" width="100%" />
+
+
 # 🧪 Task 3: Inspecting Pod Networking and Volumes
 ## 🔹 Subtask 3.1: Network Inspection
 
@@ -111,6 +115,10 @@ podman exec -it nginx2 touch /data/testfile
 podman exec -it redis2 ls /data 
 ```
 ### 👉 Both containers should see testfile.
+
+# Hand-On Output Preview:
+
+<img src="lab 4..1 .png" alt="GitHub Banner" width="100%" />
 
 
 # 🛠 Troubleshooting Tips

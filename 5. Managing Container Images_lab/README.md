@@ -131,7 +131,7 @@ podman image prune -a
 ```
 podman rmi -f IMAGE_ID
 ```
-# Hand-On Output Preview;
+# Hands-On Expected Output Preview;
 <img src="lab5 .png" alt="GitHub Banner" width="100%" />
 
 ---

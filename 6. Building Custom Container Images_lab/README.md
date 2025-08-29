@@ -141,7 +141,14 @@ http://localhost:8080
 Welcome to My Custom Nginx Container!
 
 ---
+# Hands-On Expected Output:
+<img src="lab 6.png" alt="GitHub Banner" width="100%" />
 
+--- 
+
+<img src="lab 6.1 .png" alt="GitHub Banner" width="100%" />
+
+---
 # Conclusion
 
  - In this lab, you learned how to:

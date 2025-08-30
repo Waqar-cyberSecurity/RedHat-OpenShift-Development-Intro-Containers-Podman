@@ -79,6 +79,10 @@ podman images myapp:initial
 
 ✅ Expect: Image is large with multiple layers.
 
+# Hands-On Expected Output 
+
+<img src="lab 7.png" alt="GitHub Banner" width="100%" />
+
 ---
 
 # 🔹 Task 2: Optimize the Dockerfile

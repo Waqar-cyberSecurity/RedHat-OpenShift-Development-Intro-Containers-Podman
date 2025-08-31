@@ -93,6 +93,11 @@ APP_VERSION=1.0
 APP_ENV=development
 Use ARG for Build-Time Variables
 ```
+# Hands-On Expected Output:
+<img src="lab 8 .png" alt="GitHub Banner" width="100%" />
+
+---
+
 Use ARG for Build-Time Variables
 ```
 cat <<EOF > Containerfile
@@ -112,6 +117,8 @@ yaml
 
 Build number: 42
 ```
+# Hands-On Expected Output:
+<img src="lab 8.1 .png" alt="GitHub Banner" width="100%" />
 
 
 ## 🛑 Troubleshooting

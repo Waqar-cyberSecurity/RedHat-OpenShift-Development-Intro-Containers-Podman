@@ -88,6 +88,8 @@ Entrypoint says: Custom message
 ```
 👉 Key Concept: Arguments after the image name replace the CMD.
 
+# Hands-On Expected Output:
+<img src="lab 9 .png" alt="GitHub Banner" width="100%" />
 ---
 
 # 🔹 Task 3: Advanced ENTRYPOINT & CMD Combinations
@@ -174,6 +176,8 @@ FROM registry.access.redhat.com/ubi9/ubi-minimal
 ENTRYPOINT echo "Shell form ENTRYPOINT:"
 CMD echo "Shell form CMD"
 ```
+# Hands-On Expected Output:
+<img src="lab 9.1 .png" alt="GitHub Banner" width="100%" />
 
 ## Key Difference:
 

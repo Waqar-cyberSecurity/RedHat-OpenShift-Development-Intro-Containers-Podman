@@ -203,3 +203,11 @@ CMD echo "Shell form CMD"
  - Combine ENTRYPOINT with a script for complex startup logic
 
  - Always document expected runtime overrides
+
+
+# Cleanup
+ - Remove all lab containers and images:
+
+```
+podman rmi entrypoint-demo greet-demo
+```

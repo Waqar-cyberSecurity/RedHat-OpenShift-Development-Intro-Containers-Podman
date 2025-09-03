@@ -38,7 +38,12 @@ podman volume ls
 # Inspect volume details
 podman volume inspect myapp_data
 ```
+# Hands-On Expected Output 
+
+<img src="LAB 10 .png" alt="GitHub Banner" width="100%" />
+
 ---
+
 
 # Task 2: Mounting Volumes in Containers
 ```
@@ -59,6 +64,7 @@ podman exec webapp_new cat /var/www/html/index.html
 ```
 Hello, Volume!
 ```
+
 ---
 
 # Task 3: Using Bind Mounts with Host Directories
@@ -78,6 +84,10 @@ podman exec bind_example cat /usr/share/nginx/html/index.html
 echo "Updated content!" >> ~/host_data/index.html  
 podman exec bind_example cat /usr/share/nginx/html/index.html
 ```
+# Hands-On Expected Output 
+
+<img src="lab 10.1 .png" alt="GitHub Banner" width="100%" />
+
   ---
 
 # 🛠️ Troubleshooting Tips

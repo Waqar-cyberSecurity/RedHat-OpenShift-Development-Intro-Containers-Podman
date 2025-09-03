@@ -56,6 +56,8 @@ podman run -d \
   -p 3306:3306 \
   docker.io/library/mysql:8.0
 ```
+<img src="lab 11.png" alt="GitHub Banner" width="100%" />
+
 Key Parameters:
 
 - -v $(pwd)/mysql-data:/var/lib/mysql → mounts host directory

@@ -56,6 +56,7 @@ podman run -d \
   -p 3306:3306 \
   docker.io/library/mysql:8.0
 ```
+# Hands-On Expected Output;
 <img src="lab 11.png" alt="GitHub Banner" width="100%" />
 
 Key Parameters:
@@ -88,7 +89,12 @@ exit;
 ```
 ➡️ Confirms database and table creation.
 
+# Hands-On Expected Output;
+<img src="lab 11.1 .png" alt="GitHub Banner" width="100%" />
+
+
 ---
+
 
 #  📌 Task 2: Verifying Data Persistence
 ##  🔹 Subtask 2.1: Remove Container
@@ -118,6 +124,9 @@ podman exec -it mysql-db mysql -u testuser -puser123 testdb -e "SELECT * FROM la
 ```
 mkdir -p pg-data
 ```
+# Hands-On Expected Output;
+<img src="lab 11.2 .png" alt="GitHub Banner" width="100%" />
+
 ## 🔹 Subtask 3.2: Launch PostgreSQL
 ```
 podman run -d \
@@ -134,6 +143,8 @@ podman run -d \
 podman exec -it postgres-db psql -U testuser -d testdb -c "CREATE TABLE lab_data (id SERIAL PRIMARY KEY, message TEXT); INSERT INTO lab_data (message) VALUES ('Postgres persistent data');"
 ```
 ➡️ Remove/recreate container to confirm persistence.
+
+
 
 ---
 
@@ -155,6 +166,10 @@ ss -tulnp | grep 3306
 ```
 podman logs mysql-db
 ```
+
+# Hands-On Expected Output;
+<img src="lab 11.3 .png" alt="GitHub Banner" width="100%" />
+
 ---
 
 # ✅ Conclusion

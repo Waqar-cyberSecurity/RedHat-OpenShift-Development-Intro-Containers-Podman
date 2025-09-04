@@ -123,6 +123,8 @@ podman run --rm -v backup-vol:/backup alpine ls -l /backup/mysql
 # Hands-On Expected Output;
 
 
+<img src="lab 12 .1 .png" alt="GitHub Banner" width="100%" />
+
 
 
 ---
@@ -202,6 +204,8 @@ podman logs mysql-db
 
 
 📌 These backup & restore skills are critical for data integrity in containerized apps and valuable for Red Hat OpenShift certification prep.
+
+---
 
 ## 🧹 Cleanup
 ```

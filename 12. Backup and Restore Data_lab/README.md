@@ -82,6 +82,12 @@ podman exec mysql-db /usr/bin/mysqldump -u root -predhat testdb > testdb_dump.sq
 ls -l testdb_dump.sql
 head -n 5 testdb_dump.sql
 ```
+# Hands-On Expected Output;
+
+<img src="lab 12 .png" alt="GitHub Banner" width="100%" />
+
+
+
 ---
 
 # 📌 Task 2: Store Dumps on Volumes
@@ -113,6 +119,12 @@ podman rm temp
 ```
 podman run --rm -v backup-vol:/backup alpine ls -l /backup/mysql
 ```
+
+# Hands-On Expected Output;
+
+
+
+
 ---
 
 # 📌 Task 3: Restore Data from Dumps
@@ -154,6 +166,10 @@ pgsql
 |  2 | Jane Smith |
 +----+------------+
 ```
+# Hands-On Expected Output;
+
+<img src="lab 12 .2.png" alt="GitHub Banner" width="100%" />
+
 ---
 
 ## 🛠 Troubleshooting Tips

@@ -53,6 +53,11 @@ If port already in use → change host port:
 ```
 -p 9230:9229
 ```
+# Hands-On Expected Output:
+
+<img src="lab 15 .png" alt="GitHub Banner" width="100%" />
+
+
 ---
 
 # 🛠️ Task 2: Mount Source Code for Live Debugging
@@ -73,6 +78,10 @@ podman exec -it debug-container ls /app
 ✅ Expected: You should see your project files.
 
 ⚠️ If missing: Double-check path.
+
+# Hands-On Expected Output:
+
+<img src="lab 15 .1.png" alt="GitHub Banner" width="100%" />
 
 ---
 
@@ -117,6 +126,10 @@ podman exec -it debug-container ls /app
 - Check port mapping (9229).
 
 - Verify container is running (podman ps).
+
+# Hands-On Expected Output:
+
+<img src="lab 15 .2.png" alt="GitHub Banner" width="100%" />
 
 ---
 

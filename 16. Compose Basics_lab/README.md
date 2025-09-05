@@ -155,6 +155,13 @@ volumes:
   - ./html:/usr/share/nginx/html:Z
 Image pull errors → check internet or image name
 ```
+# Hands-On Expected Output:
+
+<img src="lab 16 .1 .png" alt="GitHub Banner" width="100%" />
+
+---
+<img src="lab 16 ..2 .png" alt="GitHub Banner" width="100%" />
+
 ---
 
 # 🏁 Conclusion

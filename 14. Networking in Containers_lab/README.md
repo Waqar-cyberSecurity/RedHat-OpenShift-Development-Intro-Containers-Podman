@@ -77,6 +77,11 @@ podman network inspect lab-network
 ```
 podman info
 ```
+# Hands-On Expected Output:
+
+<img src="lab 14 .png" alt="GitHub Banner" width="100%" />
+
+
 ---
 
 # Task 3: Run Containers with Port Publishing
@@ -117,6 +122,10 @@ Verify:
 podman inspect webapp | grep -A 5 "Networks"
 ```
 📌 Why Important: Attaching to a custom network ensures containers can communicate in isolation.
+
+# Hands-On Expected Output:
+
+<img src="lab 14.1 .png" alt="GitHub Banner" width="100%" />
 
 ---
 

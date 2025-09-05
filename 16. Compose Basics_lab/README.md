@@ -82,6 +82,10 @@ CONTAINER ID  IMAGE                           STATUS       PORTS
 abc123        docker.io/nginx:alpine          Up 2 mins    0.0.0.0:8080->80/tcp
 def456        docker.io/postgres:13           Up 2 mins    5432/tcp
 ```
+# Hands-On Expected Output:
+
+<img src="lab 16 .png" alt="GitHub Banner" width="100%" />
+
 ---
 
 # 🛠️ Task 3: Test the Application

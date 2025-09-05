@@ -77,6 +77,11 @@ podman logs --tail 10 nginx-test
 ```
 podman ps
 ```
+ # Hands-On Expected Output:
+
+<img src="lab 13 .png" alt="GitHub Banner" width="100%" />
+
+
 ---
 
 #  📌 Task 2: Inspect Container State
@@ -139,6 +144,10 @@ curl localhost
 ➡️ Should return the default Nginx welcome page.
 
 ⚠️ Tip: If /bin/sh fails → try /bin/bash.
+
+# Hands-On Expected Output:
+
+<img src="lab 13 .1 .png" alt="GitHub Banner" width="100%" />
 
 ---
 

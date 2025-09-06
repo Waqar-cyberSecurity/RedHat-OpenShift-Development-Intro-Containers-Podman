@@ -109,6 +109,12 @@ Apply:
 ```
 kubectl apply -f mysql-service.yaml
 ```
+ # Hands-On Expected Output:
+
+<img src="lab 19 .png" alt="GitHub Banner" width="100%" />
+
+
+
 ## Subtask 2.3: Verify Resources
 ```
 kubectl get statefulset,pods,pvc

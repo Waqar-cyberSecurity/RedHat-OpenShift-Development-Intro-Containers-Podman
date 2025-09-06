@@ -167,6 +167,12 @@ Expected: DNS resolves →
 
 - mysql-1.mysql
 
+ # Hands-On Expected Output:
+
+<img src="lab 19.2 .png" alt="GitHub Banner" width="100%" />
+
+
+
 ---
 
 ## 🛠️ Troubleshooting

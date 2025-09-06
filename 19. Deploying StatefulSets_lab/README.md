@@ -130,6 +130,12 @@ NAME                                STATUS   VOLUME   CAPACITY
 pvc/mysql-persistent-storage-mysql-0   Bound   pvc-123...   1Gi
 pvc/mysql-persistent-storage-mysql-1   Bound   pvc-456...   1Gi
 ```
+ # Hands-On Expected Output:
+
+<img src="lab 19.1 .png" alt="GitHub Banner" width="100%" />
+
+
+
 ---
 
 # 🛠️ Task 3: Verify Storage & Network Identity

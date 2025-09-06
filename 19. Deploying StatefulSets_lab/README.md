@@ -79,6 +79,7 @@ spec:
 ```
 kubectl apply -f mysql-statefulset.yaml --dry-run=client
 ```
+---
 
 # 🛠️ Task 2: Deploy the Stateful Application
 ## Subtask 2.1: Apply StatefulSet
@@ -123,6 +124,8 @@ NAME                                STATUS   VOLUME   CAPACITY
 pvc/mysql-persistent-storage-mysql-0   Bound   pvc-123...   1Gi
 pvc/mysql-persistent-storage-mysql-1   Bound   pvc-456...   1Gi
 ```
+---
+
 # 🛠️ Task 3: Verify Storage & Network Identity
 ## Subtask 3.1: Check Pod Hostnames
 ```

@@ -92,6 +92,12 @@ kubectl describe pod nginx-pod
 kubectl logs nginx-pod
 ```
 
+# Hands-On Expected Output:
+
+<img src="lab 18 .png" alt="GitHub Banner" width="100%" />
+
+
+
 ---
 
 # 🛠️ Task 3: Inspect Pod Status and Logs
@@ -105,6 +111,12 @@ Shows Pod events, IP, node, and container status.
 ```
 kubectl logs nginx-pod
 ```
+# Hands-On Expected Output:
+
+<img src="lab 18 .1 .png" alt="GitHub Banner" width="100%" />
+
+
+
 Shows Nginx logs.
 
 ## Subtask 3.3: Access the Pod (Optional)
@@ -119,6 +131,12 @@ kubectl port-forward nginx-pod 8080:80
 👉 http://localhost:8080
 
 You’ll see the Nginx welcome page.
+
+# Hands-On Expected Output:
+
+<img src="18.3.png" alt="GitHub Banner" width="100%" />
+
+
 
 ---
 

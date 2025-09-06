@@ -144,6 +144,11 @@ curl http://nginx.example.com
 ```
 ✅ Nginx welcome page should appear.
 
+ # Hands-On Expected Output:
+
+<img src="lab 20.3 .png" alt="GitHub Banner" width="100%" />
+
+
 ---
 
 ## 🛠️ Troubleshooting

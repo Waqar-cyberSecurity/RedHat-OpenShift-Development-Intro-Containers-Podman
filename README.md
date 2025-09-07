@@ -56,5 +56,10 @@ They cover everything from the **basics of Podman/Docker** to advanced concepts 
 ---
 
 
-## Contributing
+## 🤝 Contributing
 - Feel free to fork this repository, make improvements, and submit pull requests.
+
+---
+
+## 📜 License
+- This labs is licensed under the MIT License – see the LICENSE file for details.

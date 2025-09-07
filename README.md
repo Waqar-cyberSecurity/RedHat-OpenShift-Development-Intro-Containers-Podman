@@ -1,5 +1,9 @@
 #  Red Hat OpenShift Development – Container Labs Summary
 
+## PDF Resource
+- 📗 [View PDF – Podman Fundamentals](./00.Introduction_and_overview_of_containers/3.Containerization_and_Podman_Fundamentals.pdf)
+- 📄 [View PDF – Introduction to Containers](./00.Introduction_and_overview_of_containers/2.Red_Hat_Introduction_to_Containers_with_Podman.pdf)
+
 ## Introduction
 This repository provides a complete overview of containerization concepts and hands-on practice using **Podman, Docker, and Kubernetes/OpenShift**.  
 It contains a collection of 20 labs, each focusing on a different aspect of container development, debugging, storage, networking, and orchestration.  

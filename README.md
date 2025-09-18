@@ -4,14 +4,16 @@
 - 📗 [View PDF – Podman Fundamentals](./00.Introduction_and_overview_of_containers/Podman_Fundamentals.pdf)
 - 📄 [View PDF – Introduction to Containers](./00.Introduction_and_overview_of_containers/Command.pdf)
 
-## Introduction
+---
+
+## 📌 Introduction
 This repository provides a complete overview of containerization concepts and hands-on practice using **Podman, Docker, and Kubernetes/OpenShift**.  
 It contains a collection of 20 labs, each focusing on a different aspect of container development, debugging, storage, networking, and orchestration.  
 These labs serve as a strong foundation for **DevOps practices, OpenShift certification preparation, and real-world cloud-native development**.
 
 ---
 
-## Labs Overview
+## 📚 Labs Overview
 
 - **Lab 1: Introduction to Containers** – Basic understanding of what containers are and why they are important.  
 - **Lab 2: Podman Basics** – Running simple containers and managing lifecycle using Podman.  
@@ -36,13 +38,13 @@ These labs serve as a strong foundation for **DevOps practices, OpenShift certif
 
 ---
 
-## Importance
+## 🌟 Importance
 These labs provide practical experience with container technologies that are widely used in the **IT industry**.  
 They cover everything from the **basics of Podman/Docker** to advanced concepts like **Kubernetes StatefulSets and Ingress**, making them highly valuable for anyone preparing for cloud-native development and **Red Hat OpenShift certification**.
 
 ---
 
-## Industry Relevance
+## 🏢 Industry Relevance
 - **DevOps Pipelines**: Automating build, test, and deployment workflows.  
 - **Cloud-Native Applications**: Running microservices in production.  
 - **Enterprise OpenShift Use**: Managing containers securely at scale.  
@@ -50,7 +52,7 @@ They cover everything from the **basics of Podman/Docker** to advanced concepts 
 
 ---
 
-## Troubleshooting Quick Notes
+## 🛠️ Troubleshooting Quick Notes
 - Use `podman logs <container>` or `kubectl logs <pod>` to check errors.  
 - Verify volumes and permissions if data is missing.  
 - Check firewall rules and port mappings when services are not accessible.  
